@@ -74,7 +74,7 @@ a:active {
 }
 
 h1 {
-  color: #f2f3f4;
+  color: #1d2951;
   text-align: center;
 }
 
@@ -82,6 +82,7 @@ h1, .footer-text, .married-text {
   display: inline;
   font-size: 150px;
   font-family: 'Northwell Clean';
+  color: #1d2951;
 }
 
 h2 {
@@ -118,8 +119,9 @@ input[type=text] {
   width: 75%;
   padding: 10px 15px;
   margin: 6px 0;
-  /*border: 1px solid #1d2951;
-  border-radius: 2px;*/
+  /*background-color: #f2f3f4;*/
+  border: 1px solid #1d2951;
+  border-radius: 2px;
 }
 
 #form-hint {
@@ -128,7 +130,9 @@ input[type=text] {
 }
 
 .rsvp {
-  margin: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #1d2951;
 }
 
 hr.style-two {
@@ -144,14 +148,23 @@ hr.style-two {
   color: white;
 }
 
-.non-hero {
+.non-hero, .rsvp {
   padding: 45px;
 
 }
 
 .margfix {
- margin-left: 45px;
- margin-right: 45px;
+ margin-left: 45px;   
+    margin-right: 45px;
+}
+
+
+.rsvp-text
+{
+  display: inline;
+  font-size: 45px;
+  font-family: 'Northwell Clean';
+  color: #1d2951
 }
 
 /******************************************/
@@ -366,5 +379,3 @@ footer {
   grid-gap: 30px;
 }
 }
-
-
